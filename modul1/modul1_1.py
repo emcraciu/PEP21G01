@@ -24,6 +24,8 @@ print_text2 = 456
 print(print_text1, print_text2)
 
 # print shape
-print("*5*")
+print("***")
 print("* *")
 print("***")
+
+
