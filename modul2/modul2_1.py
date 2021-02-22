@@ -7,13 +7,13 @@ print(number_three)
 
 # type
 response = type(number_3)
-print(response)
+print('Type of variable:', response)
 
 response = type(number_three)
-print(response)
+print('Type of variable:', response)
 
-# print(type(3))
-# print(type('3'))
+print('Type of int object:', type(3))
+print('Type of str object:', type('3'))
 
 # Integers
 var1 = 123
@@ -30,17 +30,13 @@ print(oct_number)
 hex_number = 0x10
 print(hex_number)
 
-# Integer Operations
+# Integer Operations and methods
 print('Sum of 2+8 is:', bin_number + oct_number)
-
-# add method
 print('Sum of 2+8 is:', bin_number.__add__(oct_number))
-# print('Sum of 2+8 is:', oct_number.__add__(bin_number))
 
-print('Dif of 8-2 is: ', oct_number - bin_number)
-print('Dif of 8-2 is: ', oct_number.__sub__(bin_number))
+print('Dif of 8-2 is:', oct_number - bin_number)
+print('Dif of 8-2 is:', oct_number.__sub__(bin_number))
 
-# mul method
 print('multiplication 2 * 8:', bin_number * oct_number)
 print('multiplication 2 * 8:', bin_number.__mul__(oct_number))
 
@@ -59,7 +55,7 @@ print(pow(number_3, 3))
 # division
 print('Division')
 result = number_3 / 3
-print(type(result))
+print('Type return by division is:', type(result))
 print(result)
 print('True div: ', number_3.__truediv__(3))
 
@@ -107,7 +103,7 @@ my_code = 'This is my code\n'
 print(my_code * 100)
 print(100 * my_code)
 print(my_code.__mul__(100))
-print((100).__mul__(my_code))  # this is not implemented so it will do my_code.__mul__(100)
+print((100).__mul__(my_code))  # this is not implemented so it will do my_code.__mul__(100) when using +
 print()
 
 # String Types:
