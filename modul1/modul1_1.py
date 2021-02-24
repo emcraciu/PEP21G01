@@ -27,5 +27,3 @@ print(print_text1, print_text2)
 print("***")
 print("* *")
 print("***")
-
-
