@@ -9,7 +9,7 @@
 # the difference in seconds between them. The convert the result back to the initial
 # format and print that also
 # dd is number of days
-# hh si number of hours (00-23)
+# hh is number of hours (00-23)
 # mm is number od minutes (00-59)
 # ss is number of seconds (00-59)
 
