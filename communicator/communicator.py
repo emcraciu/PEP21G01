@@ -16,7 +16,8 @@ class Connector:
 
     def generate_prime(self):
         primes_list = list(filter(lambda no: True if no > 129 else False, primes(256)))
-        self.prime = primes_list[random.randint(0, len(primes_list) - 1)]
+        # self.prime = primes_list[random.randint(0, len(primes_list) - 1)]
+        self.prime = random.choice(primes_list)
 
     def get_prime(self, prime):
         if not getattr(self, "prime", False):
